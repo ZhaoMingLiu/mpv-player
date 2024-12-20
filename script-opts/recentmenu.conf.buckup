@@ -1,0 +1,4 @@
+path = "~~/recent.json"                 # where the history is stored
+length = 10                             # number of items
+width = 88                              # number of characters for the item
+ignore_same_series = no                 # similar file names only record the most recent one

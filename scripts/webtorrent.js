@@ -1,0 +1,1 @@
+C:/Users/zhao/scoop/persist/nodejs-lts/bin/node_modules/webtorrent-mpv-hook/build/webtorrent.js

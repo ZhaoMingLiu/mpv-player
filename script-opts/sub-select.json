@@ -1,0 +1,38 @@
+[
+  {
+    "alang": "*",
+    "slang": [
+      "zho?",
+      "chi?",
+      "und"
+    ],
+    "whitelist": [
+      ".*retimed",
+      "traditional"
+    ],
+    "blacklist": [
+      "signs"
+    ],
+    "condition": "sub.external and sub.codec == 'ass'"
+  },
+  {
+    "inherit": "^",
+    "condition": "sub.external and sub.codec ~= 'ass'"
+  },
+  {
+    "inherit": "^",
+    "condition": "sub.codec == 'ass'"
+  },
+  {
+    "inherit": "^",
+    "condition": "sub.codec ~= 'ass'"
+  },
+  {
+    "alang": "*",
+    "slang": [
+      "zho?",
+      "chi?",
+      "und"
+    ]
+  }
+]
